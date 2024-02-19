@@ -22,5 +22,7 @@ module.exports = withMT( {
       xl: '1536px',
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-no-scrollbar')
+  ],
 });

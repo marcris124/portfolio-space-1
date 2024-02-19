@@ -41,12 +41,28 @@ const HeroContent = () => {
         >
           Soy un desarrollador web Full Stack enfocado en el desarrollo front-end de aplicaciones y plataformas web, en el cual siempre estoy dispuesto a mejorar mis habilidades, creando proyectos, enfrentando desafíos y con la motivación de seguir aprendiendo.
         </motion.p>
-        <motion.a
-          variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+        <motion.div
+        className=" flex justify-start gap-24 md:gap-48 "
         >
-          Learn More!
-        </motion.a>
+
+          <motion.a
+                    variants={slideInFromLeft(1)}
+                    className="p-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[90px]"
+                    href="https://github.com/marcris124" target={"_blank"}
+                  >
+                    <Image src={"/gitwhite.png"} width={80} height={80} alt='github'/>
+                  
+                  </motion.a>
+                  <motion.a
+                    variants={slideInFromLeft(1)}
+                    className="p-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[90px]"
+                    href="https://www.linkedin.com/in/martin-aguirre-38b201244/" target={"_blank"}
+                  >
+                    <Image src={"/linkedin.png"} width={80} height={80} alt='linkedin' />
+                  </motion.a>
+
+        </motion.div>
+       
       </div>
 
       <motion.div
