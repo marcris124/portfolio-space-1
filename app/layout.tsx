@@ -3,11 +3,12 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { NavbarSimple } from "@/components/main/Navbar";
 import StarsCanvas from "@/components/main/StarBackground";
+import Footer from "@/components/main/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Portafolio",
+  title: "My Portafolio",
   description: "este es mi portafolio",
 };
 
@@ -22,6 +23,7 @@ export default function RootLayout({
         <StarsCanvas/>
         <NavbarSimple/>
         {children}
+        <Footer/>
         </body>
     </html>
   );
