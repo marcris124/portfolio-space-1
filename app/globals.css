@@ -61,7 +61,9 @@
   display: none;
 }
 
-
+.bg-gradient-card{
+  background: linear-gradient(172deg,#00acff 10%, #c300ff 80%);
+}
 
 html {
   scroll-behavior: smooth;

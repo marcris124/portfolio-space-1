@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import ProjectCard from "../sub/ProjectCard";
 import { Button, Typography } from "@material-tailwind/react";
+import { ThreeDCardDemo } from "./ProjectCard3D";
 
 const Projects = () => {
 
@@ -50,9 +51,28 @@ const Projects = () => {
       My Projects
     </h1>
    
+    {/* pc design */}
+
+   <div className="hidden  z-40 h-full w-full md:grid grid-cols-1 md:grid-cols-2 gap-10 px-10 md:px-[5.5rem]">
+      {projectList.map((project) => (
+        <ThreeDCardDemo
+        key={project.id}
+        src={project.image}
+        title={project.name}
+         description={project.description}
+         link={project.link}
+
+        />
+          
+      ))}
+     
+    </div>
+
+
+
 {/* mobile design */}
 
-   <div className=" z-40 h-full w-full grid grid-cols-1 md:grid-cols-2 gap-10 px-10 md:px-[5.5rem]">
+   <div className=" md:hidden z-40 h-full w-full grid grid-cols-1 md:grid-cols-2 gap-10 px-10 md:px-[5.5rem]">
       {projectList.map((project) => (
         <ProjectCard
         key={project.id}
