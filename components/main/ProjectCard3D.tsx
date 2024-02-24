@@ -28,12 +28,12 @@ export function ThreeDCardDemo( { src, title, description, link }: Props) {
         >
           {description}
         </CardItem>
-        <CardItem translateZ="100" className="w-full mt-4">
+        <CardItem translateZ="100" className="w-full mt-4  ">
           <Image
             src={src}
             height="1000"
             width="1000"
-            className="h-72 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+            className="h-72 w-full object-cover rounded-xl group-hover/card:shadow-xl box-shadow-card"
             alt="thumbnail"
           />
         </CardItem>

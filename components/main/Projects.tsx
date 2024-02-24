@@ -42,6 +42,21 @@ const Projects = () => {
       description: "Activa tu ubicación para ver el clima de tu zona",
       link: "https://entregable-2-clima-martin-santiago.netlify.app/",
     },
+    {
+      id: 6,
+      image: "/Calculadora.webp",
+      name: "Calculadora",
+      description: "una calculadora simple pero eficaz",
+      link: "https://calculadora-proyect.netlify.app/",
+    },
+    {
+      id: 7,
+      image: "/Register.webp",
+      name: "Card register",
+      description: "una pagina para registar usuarios creando tarjetas",
+      link: "https://users-register-msa.netlify.app/",
+    }
+    
   ];
 
   

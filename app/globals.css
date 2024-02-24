@@ -64,7 +64,9 @@
 .bg-gradient-card{
   background: linear-gradient(172deg,#00acff 10%, #c300ff 80%);
 }
-
+.box-shadow-card{
+  box-shadow: 10px 11px 25px 0px rgba(0,0,0,0.75);
+}
 html {
   scroll-behavior: smooth;
 }
