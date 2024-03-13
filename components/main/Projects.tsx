@@ -33,7 +33,7 @@ const Projects = () => {
       image: "/RickYMorty.webp",
       name: "Ricky and Morty",
       description: "Busca cualquier dimensión de Rick & Morty por su ID",
-      link: "https://entregable-3-ms.netlify.app/",
+      link: "https://wiki-rick-and-morty-2024.netlify.app/",
     },
     {
       id: 5,

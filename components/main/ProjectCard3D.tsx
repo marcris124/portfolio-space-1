@@ -29,6 +29,7 @@ export function ThreeDCardDemo( { src, title, description, link }: Props) {
           {description}
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4  ">
+          <a href={link} target="_blank"> 
           <Image
             src={src}
             height="1000"
@@ -36,6 +37,7 @@ export function ThreeDCardDemo( { src, title, description, link }: Props) {
             className="h-72 w-full object-cover rounded-xl group-hover/card:shadow-xl box-shadow-card"
             alt="thumbnail"
           />
+          </a>
         </CardItem>
         <div className="flex justify-between items-center mt-10">
             <a href={link} target="_blank"
