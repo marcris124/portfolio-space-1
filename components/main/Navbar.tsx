@@ -38,7 +38,7 @@ const NavList = () => {
         color="white"
         className="p-1 font-semibold"
       >
-        <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
+        <a href="#contactMe" className="flex items-center hover:text-blue-500 transition-colors">
           Contácta Me
         </a>
       </Typography>

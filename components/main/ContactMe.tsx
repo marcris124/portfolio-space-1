@@ -5,7 +5,7 @@ import React from 'react'
 
 const ContactMe = () => {
   return (
-    <div className=' grid grid-cols-1 md:grid-cols-2 '>
+    <div className=' grid grid-cols-1 md:grid-cols-2 ' id='contactMe'>
          <div className=" grid justify-center items-center flex-wrap text-white ">
                 
 
