@@ -48,7 +48,7 @@ const Projects = () => {
       name: "Calculadora",
       description: "una calculadora simple pero eficaz",
       link: "https://calculadora-proyect.netlify.app/",
-    }   
+    }  
   ];
 
   
