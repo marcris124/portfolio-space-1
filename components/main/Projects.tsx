@@ -48,15 +48,7 @@ const Projects = () => {
       name: "Calculadora",
       description: "una calculadora simple pero eficaz",
       link: "https://calculadora-proyect.netlify.app/",
-    },
-    {
-      id: 7,
-      image: "/Register.webp",
-      name: "Card register",
-      description: "una pagina para registar usuarios creando tarjetas",
-      link: "https://users-register-msa.netlify.app/",
-    }
-    
+    }   
   ];
 
   
